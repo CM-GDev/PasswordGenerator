@@ -27,8 +27,10 @@ The next few screenshots shows some of the prompt, alert, and confirm windows us
 
 ## Credits
 
-For this homework assignment, I applied what was taught in the third week of class and used the following webpage as a resource:
+For this homework assignment, I applied what was taught in the third week of class and used the following first webpage as a major resource. The second link, demonstrates how to shuffle an array with an algorithm called "Fisher-Yates shuffle". I found the article very interesting and used the algorithm in my code: 
 - [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+
+- [Shuffle An Array](https://javascript.info/task/shuffle)
 
 
 ## License

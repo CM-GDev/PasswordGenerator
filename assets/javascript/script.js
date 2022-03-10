@@ -60,10 +60,20 @@ function writePassword() {
               passGenerated.push(spcChar[indexSpcChar]);
               i++;
             }
-          }   
+          }  
+          //If statement for shuffling components of generated password array using the Fisher-Yates algorith
+          if (i == passLength) {
+            for (let j = passLength - 1; j > 0; j--) {
+                  let randIndex = Math.floor(Math.random() * (j + 1));
+                  let shuffledArray = passGenerated[j];
+                  passGenerated[j] = passGenerated[randIndex];
+                  passGenerated[randIndex] = shuffledArray;
+                }
+          }
           //Return finished password
           return passGenerated.join("");
         }
+         
   }    
 
   // Write password to the #password input
